@@ -1,8 +1,25 @@
 aid: wonderskin
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wonderskin.png
 name: Wonderskin
-description: 'Wonderskin is a company surfaced as a portfolio company of insight-partners and added to
-  the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Wonderskin is a direct-to-consumer beauty and cosmetics brand best known for its WONDER
+  BLADING all-day peel-off lip stain, along with longwear eyeliners, serum foundations, blush, brow
+  products, skincare, and beauty tools sold through its Shopify-powered online store. The company runs
+  a SKINSIDER loyalty membership, publishes THE SKINSIDER beauty and lifestyle blog, and partners with
+  athletes and celebrities on product marketing. It was surfaced in the API Evangelist network as a
+  portfolio company of Insight Partners. As a consumer e-commerce retailer, Wonderskin publishes no
+  public developer portal, API reference, or machine-readable API surface; this profile captures the
+  brand identity, customer-facing web properties, and a domain-security probe rather than API artifacts.'
 url: https://raw.githubusercontent.com/api-evangelist/wonderskin/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Beauty
+- Cosmetics
+- Skincare
+- Makeup
+- E-Commerce
+- Direct-to-Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,20 @@ maintainers:
 common:
 - type: Website
   url: https://wonderskin.com/
+- type: Blog
+  url: https://wonderskin.com/blogs/news
+- type: Support
+  url: https://wonderskin.com/pages/contact
+- type: TermsOfService
+  url: https://wonderskin.com/policies/terms-of-service
+- type: PrivacyPolicy
+  url: https://wonderskin.com/policies/privacy-policy
+- type: Login
+  url: https://wonderskin.com/account/login
+- type: DomainSecurity
+  url: security/wonderskin-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
